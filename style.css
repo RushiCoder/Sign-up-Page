@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: black;
+    border-radius: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h1 {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.signup-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 7%;
+}
+.left-box {
+    padding: 50px;
+    background: #22a7aa;
+    border-radius: 9%;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: rgb(243, 247, 246);
+}
+.right-box {
+    padding: 50px;
+    flex-basis: 50%;
+    flex-grow: 1;
+
+}
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 500px;
+}
+::placeholder {
+    color: #fff;
+}
+input[type=checkbox] {
+    margin-top: 30px;
+}
+.left-box label {
+    font-size: 14px;
+}
+.left-box button {
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 500px;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-box button:hover {
+    font-weight: 500;
+    background: rgb(188, 194, 81);
+    color: #fff;
+
+}
+.left-box button span {
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.left-box button:hover span {
+    width: 30px;
+}
+.right-box a {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    min-width: 250px;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 30px;
+    border-radius: 500px;
+    text-decoration: none;
+}
+.right-box a i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+.fb-link {
+    background: orange;
+}
+.tw-link {
+    background: blue;
+}
+.g-link {
+    background: green;
+}
+.login-msg {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.login-msg a {
+    color: #5c58dd;
+    text-decoration: none;
+}
+
