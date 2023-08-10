@@ -9,3 +9,4 @@ It's a Signup Page which is made by using html and css
 * Beautiful Page
 ## Prerequisites :
 * Time 😂
+* Live Server
